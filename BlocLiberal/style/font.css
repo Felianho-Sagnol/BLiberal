@@ -1,0 +1,282 @@
+.diamond {
+    -webkit-clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+    clip-path: url(#diamond);
+}
+
+.pentagon {
+    -webkit-clip-path: polygon(50% 0, 100% 38%, 80% 100%, 20% 100%, 0 38%);
+    clip-path: url(#pentagon);
+}
+
+.hexagon {
+    -webkit-clip-path: polygon(50% 0, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+    clip-path: url(#hexagon);
+}
+
+.octogon {
+    -webkit-clip-path: polygon(0 50%, 15% 15%, 50% 0, 85% 15%, 100% 50%, 85% 85%, 50% 100%, 15% 85%);
+    clip-path: url(#octogon);
+}
+
+.avatar {
+    margin-top: 50px;
+}
+
+
+/*Mes classes et id css*/
+
+@font-face {
+    font-family: quartzo;
+    src: url(../font/quartzo.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../font/Roboto.ttf);
+}
+
+@font-face {
+    font-family: coming;
+    src: url(../font/coming.otf);
+}
+
+@font-face {
+    font-family: droidsans;
+    src: url(../font/droidsans.ttf);
+}
+
+@font-face {
+    font-family: ptsans;
+    src: url(../font/ptsans.ttf);
+}
+
+@font-face {
+    font-family: CostaRica;
+    src: url(../font/CostaRica.otf);
+}
+
+@font-face {
+    font-family: Sanchezregular;
+    src: url(../font/Sanchezregular.otf);
+}
+
+@font-face {
+    font-family: candara;
+    src: url(../font/candara.ttf);
+}
+
+@font-face {
+    font-family: LondonMM;
+    src: url(../font/LondonMM.ttf);
+}
+
+@font-face {
+    font-family: vintage;
+    src: url(../font/vintage.otf);
+}
+
+@font-face {
+    font-family: Chardons;
+    src: url(../font/Chardons.ttf);
+}
+
+@font-face {
+    font-family: Delius;
+    src: url(../font/Delius.ttf);
+}
+
+@font-face {
+    font-family: balonez_fantasia;
+    src: url(../font/balonez_fantasia.ttf);
+}
+
+@font-face {
+    font-family: fontastique;
+    src: url(../font/fontastique.ttf);
+}
+
+@font-face {
+    font-family: Raspoutine;
+    src: url(../font/RaspoutineMedium_TB.otf);
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url(../font/OpenSans-Light.ttf);
+}
+
+@font-face {
+    font-family: Maiandra;
+    src: url(../font/Maiandra.ttf);
+}
+
+@font-face {
+    font-family: Geometos;
+    src: url(../font/Geometos.ttf);
+}
+
+@font-face {
+    font-family: big_noodle_titling;
+    src: url(../font/big_noodle_titling.ttf);
+}
+
+@font-face {
+    font-family: QueenEmpress;
+    src: url(../font/QueenEmpress.ttf);
+}
+
+@font-face {
+    font-family: Sansation_Regular;
+    src: url(../font/Sansation_Regular.ttf);
+}
+
+@font-face {
+    font-family: Castal_Street;
+    src: url(../font/Castal_Street.ttf);
+}
+
+#obligatoire {
+    margin-bottom: 10px;
+    text-align: right;
+    color: #FF3300;
+}
+
+#hauteur_galerie {
+    height: 320px;
+    overflow: hidden;
+}
+
+#box_galerie {
+    height: 70px;
+    overflow: hidden;
+    width: 120px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+#box_galerie img {
+    height: 70px;
+    display: inline-block;
+}
+
+#box_galerie3 {
+    height: 60px;
+    overflow: hidden;
+    width: 110px;
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+#box_galerie img {
+    height: 60px;
+}
+
+#box_galerie2 {
+    height: 140px;
+    overflow: hidden;
+    display: inline;
+    margin-bottom: 3px;
+}
+
+#box_galerie2 img {
+    width: 255px;
+}
+
+#box_article {
+    padding: 7px;
+    /*border:1px solid #f718b5;*/
+    border-bottom: 5px solid #f718b5;
+    overflow: hidden;
+    text-align: center;
+    height: 380px;
+    /*color:#fff;*/
+    margin-top: 20px;
+    /*background:#1a56b0;*/
+    background: #f9f9f9;
+    margin-bottom: 15px;
+}
+
+#box_img {
+    height: 150px;
+    overflow: hidden;
+}
+
+#footer {
+    padding: 15px 0px 20px 0px;
+    background: #082b5f;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+}
+
+#separer_foot {
+    margin-bottom: 8px;
+}
+
+#titro_foot {
+    font-family: Sansation_Regular;
+    font-size: 19px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+#input_recherche {
+    margin-top: 5px;
+    color: #000;
+}
+
+#bouton_recherche {
+    height: 38px;
+    margin-top: 5px;
+    padding: 2px 0px 0px 2px;
+    color: #fff;
+    width: 40px;
+    border-radius: 0px 4px 4px 0px;
+    background: url(../img/letter.png) center #ffa500 no-repeat;
+}
+
+#bouton_recherche_news {
+    height: 39px;
+    margin-top: 4px;
+    width: 70px;
+    padding: 2px 0px 0px 2px;
+    display: inline-block;
+    border-radius: 0px 4px 4px 0px;
+}
+
+#footer_galerie {
+    width: 70px;
+    overflow: hidden;
+    height: 40px;
+    margin-bottom: 5px;
+    float: left;
+    margin-right: 5px;
+}
+
+#footer_galerie img {
+    width: 70px;
+}
+
+#descrip_actualite {
+    font-size: 12px;
+    text-align: justify;
+}
+
+#titro_msg {
+    font-size: 15px;
+}
+
+#detail_img {
+    width: 450px;
+    float: left;
+    margin-right: 15px;
+}
+
+#contact {
+    font-size: 16px;
+    color: #1a56b0;
+    font-weight: bold;
+    line-height: 30px;
+}
