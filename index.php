@@ -94,12 +94,12 @@
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#presse'>La presse</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#vie_des_federations'>Vie des fédérations</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#communique'>Communiqué</a></li>
-                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Discours</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#discours'>Discours</a></li>
                                 </ul>
                             </li>
                             <li class="has-sub"><a href='#'>Ressources & média</a>
                                 <ul>
-                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Galerie Photo</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#galery_photo'>Galerie Photo</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Galerie vidéos</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Contributions</a></li>
                                 </ul>
