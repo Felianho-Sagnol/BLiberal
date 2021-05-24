@@ -167,7 +167,7 @@
                         <div id="top" class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
                             <div id="titro_actualite">Galerie vidéo</div>
                             <a href="galerie-video.html">
-                                <table width="100%" id="img_media" style="background:url(../../img/affi4.jpg) no-repeat; background-size:cover;">
+                                <table width="100%" id="img_media" style="background:url(../../image/images/reunion2.jpg) no-repeat; background-size:cover;">
                                     <tr>
                                         <td align="center"><img src="../../img/youtube.png" width="40"></td>
                                     </tr>
@@ -178,8 +178,6 @@
                         <div id="blog" class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
                             <div id="titro_actualite">Communiqué</div>
                             <a href="actualitesbcc1.html?W9mvyDvFWE5=4"><img src="../../img/communique.png" width="250" class="img-responsive"></a>
-                            <div id="titro_actualite">Laurent Gbagbo</div>
-                            <a href="actualitesd9da.html?W9mvyDvFWE5=2"><img src="../../img/LaurentGbagbo.jpg" width="250" class="img-responsive"></a>
                         </div>
                     </div>
                 </div>
@@ -195,7 +193,7 @@
                             <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
                                 <div id="box_article">
                                     <a href="secretariat-general858f.html?W9mvyDvFWE5=96">
-                                        <div id="box_img" align="center"><img src="../../image/images/logo.jpg" width="240" class="img-responsive"></div>
+                                        <div id="box_img" align="center"><img src="../../image/images/logo.png" width="240" class="img-responsive"></div>
                                     </a>
                                     <h4 id="titro_msg">
                                         <a href="secretariat-general858f.html?W9mvyDvFWE5=96">Le Secrétariat Général</a>

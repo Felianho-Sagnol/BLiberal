@@ -93,7 +93,7 @@
                                 <ul>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#presse'>La presse</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#vie_des_federations'>Vie des fédérations</a></li>
-                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Communiqué</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#communique'>Communiqué</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Discours</a></li>
                                 </ul>
                             </li>
