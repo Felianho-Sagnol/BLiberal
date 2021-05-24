@@ -70,7 +70,7 @@
                     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
                     <div id='cssmenu'>
                         <ul style="z-index:100;">
-                            <li><a href='index-2.html' style="padding-bottom:12px; padding-top:12px;"><i class="fa fa-home home" style="font-size:30px;"></i></a></li>
+                            <li><a href='' style="padding-bottom:12px; padding-top:12px;"><i class="fa fa-home home" style="font-size:30px;"></i></a></li>
                             <li class="has-sub"><a href='#'>Le BL</a>
                                 <ul>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#historique'>Historique</a></li>
@@ -78,14 +78,6 @@
                                     <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#convention'>La Convention</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#bureau_executif'>Le bureau exécutif</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#secretariat_general'>Le secrétariat général</a></li>
-                                    <li>
-                                        <a href='#'>Les structures <i class="fa fa-chevron-down" style="color:#000; font-size:10px;"></i></a>
-                                        <ul>
-                                            <li><a href="BlocLiberal/php/views/BlocLiberalBL.php?#">Comité de contrôle</a></li>
-                                            <li><a href="BlocLiberal/php/views/BlocLiberalBL.php?#">JFPI</a></li>
-                                            <li><a href="BlocLiberal/php/views/BlocLiberalBL.php?#">OFFPI</a></li>
-                                        </ul>
-                                    </li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#statut_et_regrlements'>Statut et Règlement</a></li>
                                 </ul>
                             </li>
@@ -100,25 +92,25 @@
                             <li class="has-sub"><a href='#'>Ressources & média</a>
                                 <ul>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#galery_photo'>Galerie Photo</a></li>
-                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Galerie vidéos</a></li>
-                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Contributions</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#galery_video'>Galerie vidéos</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#contribution'>Contributions</a></li>
                                 </ul>
                             </li>
-                            <li><a href='programmes.html'>Programme</a></li>
+                            <li><a href='BlocLiberal/php/views/ProgrammeCommunication.php?#programme'>Programme</a></li>
                             <li class="has-sub"><a href='#'>Communication</a>
                                 <ul>
-                                    <li><a href='actualitesbcc1.html?W9mvyDvFWE5=4'>Communiqués</a></li>
-                                    <li><a href='contact.html'>Nous contacter</a></li>
-                                    <li><a href='accreditation.html'>Accréditation</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#communique'>Communiqués</a></li>
+                                    <li><a href='BlocLiberal/php/views/ProgrammeCommunication.php?#Contact'>Nous contacter</a></li>
+                                    <li><a href='BlocLiberal/php/views/ProgrammeCommunication.php?#accreditation'>Accréditation</a></li>
                                 </ul>
                             </li>
                             <li class="has-sub"><a href='#'>Les élections</a>
                                 <ul>
-                                    <li><a href='candidats.html'>Nos candidats</a></li>
-                                    <li><a href='campagnes.html'>La campagne</a></li>
+                                    <li><a href='BlocLiberal/php/views/Elections.php?#candidats'>Nos candidats</a></li>
+                                    <li><a href='BlocLiberal/php/views/Elections.php?#campagne'>La campagne</a></li>
                                 </ul>
                             </li>
-                            <li><a href='contact.html'>Nous contacter</a></li>
+                            <li><a href='BlocLiberal/php/views/ProgrammeCommunication.php?#Contact'>Nous contacter</a></li>
                         </ul>
                     </div>
                 </div>
@@ -363,9 +355,9 @@
                 <div class="col-lg-6 col-md-6 col-sm-6 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div id="titro_foot">Nous contacter</div>
                     <div id="separer_foot">
-                        <i class="fa fa-map-marker" style="color:#ffa500;"></i> Conakry &nbsp; &nbsp;
-                        <i class="fa fa-envelope" style="color:#ffa500;"></i> bl@gmail.com &nbsp; &nbsp;
-                        <i class="fa fa-phone" style="color:#ffa500;"></i> +2247887888 &nbsp; &nbsp;
+                        <i class="fa fa-map-marker" style="color:#f75718;"></i> Conakry &nbsp; &nbsp;
+                        <i class="fa fa-envelope" style="color:#f75718;"></i> bl@gmail.com &nbsp; &nbsp;
+                        <i class="fa fa-phone" style="color:#f75718;"></i> +2247887888 &nbsp; &nbsp;
                     </div>
                     <div id="separer_foot"><a href='#'>Contactez nous</a></div>
                     <div style="margin-top:25px">
@@ -389,10 +381,10 @@
 
                 <div class="col-lg-2 col-md-2 col-sm-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div id="titro_foot">Menu</div>
-                    <div id="separer_foot"><a href='index-2.html'><i class="fa fa-arrow-circle-o-right" style="color:#ffa500;"></i> Accueil</a></div>
-                    <div id="separer_foot"><a href='toutes-les-actualites.html'><i class="fa fa-arrow-circle-o-right" style="color:#ffa500;"></i> Actualités</a></div>
-                    <div id="separer_foot"><a href='index-2.html?W9mvyDvFWE5=33'><i class="fa fa-arrow-circle-o-right" style="color:#ffa500;"></i> Presse</a></div>
-                    <div id="separer_foot"><a href='a-propos0a52.html?W9mvyDvFWE5=5'><i class="fa fa-arrow-circle-o-right" style="color:#ffa500;"></i> Historique</a></div>
+                    <div id="separer_foot"><a href='index-2.html'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Accueil</a></div>
+                    <div id="separer_foot"><a href='toutes-les-actualites.html'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Actualités</a></div>
+                    <div id="separer_foot"><a href='index-2.html?W9mvyDvFWE5=33'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Presse</a></div>
+                    <div id="separer_foot"><a href='a-propos0a52.html?W9mvyDvFWE5=5'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Historique</a></div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div id="titro_foot">Suivez nous sur Facebook</div>

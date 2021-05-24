@@ -246,10 +246,87 @@
                                             <div id="box_galerie3">
                                                 <img src="../../image/images/reunion2.jpg" class="img-responsive">
                                             </div>
-                                            
                                         </a>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="galery_video">
+                <div class="row">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center">
+                                <div id="titro_bienvenue">Affi N’Guessan, Président du Front populaire ivoirien était l'invité du LifeTalk du 19 Mai 2021</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <iframe width="100%" height="400" src="https://www.youtube.com/embed/IfQNOhrhsbg" frameborder="0" allowfullscreen></iframe> </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                            </div>
+                        </div>
+                    </div>
+                    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <a href="contribution.html">
+                            <div id="faire_don">
+                                <p>Soutenez le FPI</p>
+                                <div align="center"><img src="../../image/images/bl-members.jpg" class="img-responsive" width="80"></div>
+                                <div>Adhérez <span>ou</span> Faites un don !</div>
+                            </div>
+                        </a>
+                        <a href="membre.html" class="btn btn-warning btn-block" id="membre">Devenez membre</a>
+                        <div id="top">
+                            <h4>RESTEZ CONNECTES:</h4>
+                            <a href="#" title="Facebook" style="text-decoration:none;">
+                                <i style="color:#39579a;" class="fa fa-2x fa-facebook"></i> &nbsp;
+                            </a>
+                            <a href="#" title="Twitter" style="text-decoration:none;">
+                                <i style="color:#00abf0;" class="fa fa-2x fa-twitter"></i> &nbsp;
+                            </a>
+                            <a href="#" title="Instagram" style="text-decoration:none;">
+                                <i style="color:#96644a;" class="fa fa-2x fa-instagram"></i> &nbsp;
+                            </a>
+                            <a href="#" title="Google +" style="text-decoration:none;">
+                                <i style="color:#de220f;" class="fa fa-2x fa-google-plus"></i> &nbsp;
+                            </a>
+                            <a href="#" title="Google +" style="text-decoration:none;">
+                                <i style="color:#F00;" class="fa fa-2x fa-youtube"></i> &nbsp;
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container" id="contribution">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center">
+                        <div id="titro_bienvenue">Contribution</div>
+                    </div>
+                </div>
+                <div class="row" align="center">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                        <div class="panel panel-primary" id="hauteur_galerie">
+                            <div class="panel-heading">PAYPAL</div>
+                            <div class="panel-body" align="center">
+                                <!--<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+                                    <input type="hidden" name="cmd" value="_donations">
+                                    <input type="hidden" name="business" value="sinzafr@yahoo.fr">
+                                    <input type="hidden" name="lc" value="FR">
+                                    <input type="hidden" name="item_name" value="Impact Jeunesse">
+                                    <input type="hidden" name="no_note" value="0">
+                                    <input type="hidden" name="currency_code" value="EUR">
+                                    <input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest">
+                                    <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+                                    <img alt="" border="0" src="https://www.paypalobjects.com/fr_XC/i/scr/pixel.gif" width="1" height="1">
+                                </form>-->
+                                <a href="#"><img src="../../img/don.gif" class="img-responsive"></a>
                             </div>
                         </div>
                     </div>

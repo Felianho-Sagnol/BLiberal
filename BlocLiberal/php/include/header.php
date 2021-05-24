@@ -78,14 +78,6 @@
                                     <li><a href='BlocLiberalBL.php?#convention'>La Convention</a></li>
                                     <li><a href='BlocLiberalBL.php?#bureau_executif'>Le bureau exécutif</a></li>
                                     <li><a href='BlocLiberalBL.php?#secretariat_general'>Le secrétariat général</a></li>
-                                    <li>
-                                        <a href='#'>Les structures <i class="fa fa-chevron-down" style="color:#000; font-size:10px;"></i></a>
-                                        <ul>
-                                            <li><a href="BlocLiberalBL.php?#">Comité de contrôle</a></li>
-                                            <li><a href="BlocLiberalBL.php?#">JFPI</a></li>
-                                            <li><a href="BlocLiberalBL.php?#">OFFPI</a></li>
-                                        </ul>
-                                    </li>
                                     <li><a href='BlocLiberalBL.php?#statut_et_regrlements'>Statut et Règlement</a></li>
                                 </ul>
                             </li>
@@ -100,25 +92,25 @@
                             <li class="has-sub"><a href='#'>Ressources & média</a>
                                 <ul>
                                     <li><a href='BlocLiberalActualitesEtRessourses.php?#galery_photo'>Galerie Photo</a></li>
-                                    <li><a href='BlocLiberalActualitesEtRessourses.php?#'>Galerie vidéos</a></li>
-                                    <li><a href='BlocLiberalActualitesEtRessourses.php?#'>Contributions</a></li>
+                                    <li><a href='BlocLiberalActualitesEtRessourses.php?#galery_video'>Galerie vidéos</a></li>
+                                    <li><a href='BlocLiberalActualitesEtRessourses.php?#contribution'>Contributions</a></li>
                                 </ul>
                             </li>
-                            <li><a href='programmes.html'>Programme</a></li>
+                            <li><a href='ProgrammeCommunication.php?#programme'>Programme</a></li>
                             <li class="has-sub"><a href='#'>Communication</a>
                                 <ul>
-                                    <li><a href='actualitesbcc1.html?W9mvyDvFWE5=4'>Communiqués</a></li>
-                                    <li><a href='contact.html'>Nous contacter</a></li>
-                                    <li><a href='accreditation.html'>Accréditation</a></li>
+                                    <li><a href='BlocLiberalActualitesEtRessourses.php?#communique'>Communiqués</a></li>
+                                    <li><a href='ProgrammeCommunication.php?#Contact'>Nous contacter</a></li>
+                                    <li><a href='ProgrammeCommunication.php?#accreditation'>Accréditation</a></li>
                                 </ul>
                             </li>
                             <li class="has-sub"><a href='#'>Les élections</a>
                                 <ul>
-                                    <li><a href='candidats.html'>Nos candidats</a></li>
-                                    <li><a href='campagnes.html'>La campagne</a></li>
+                                    <li><a href='Elections.php?#candidats'>Nos candidats</a></li>
+                                    <li><a href='Elections.php?#campagne'>La campagne</a></li>
                                 </ul>
                             </li>
-                            <li><a href='contact.html'>Nous contacter</a></li>
+                            <li><a href='ProgrammeCommunication.php?#Contact'>Nous contacter</a></li>
                         </ul>
                     </div>
                 </div>
