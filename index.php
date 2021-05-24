@@ -12,7 +12,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="keywords" content="FPI, Front populaire Ivoirien, Front populaire, Front Ivoirien, Affi Nguessan, Pascal Affi Nguessan, Gbagbo, Laurent Gbagbo, Koudou Laurent, Koudou Laurent Gbagbo, Cote d'Ivoire Politique, Politique Ivoirienne, Politique Cote d'Ivoire, Partie Politique Côte d'Ivoire, Simone Gbagbo">
+    <meta name="keywords" content="FPI, , Front populaire, Front Ivoirien, Affi Nguessan, Pascal Affi Nguessan, Gbagbo, Laurent Gbagbo, Koudou Laurent, Koudou Laurent Gbagbo, Cote d'Ivoire Politique, Politique Ivoirienne, Politique Cote d'Ivoire, Partie Politique Côte d'Ivoire, Simone Gbagbo">
     <link href="BlocLiberal/image/images/logo.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <div id="fb-root"></div>
     <script>
@@ -27,7 +27,8 @@
     </script>
     <link rel="stylesheet" href="BlocLiberal/style/style_menu.css">
     <link rel="stylesheet" type="text/css" href="BlocLiberal/slide/engine1/style.css" />
-
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="BlocLiberal/slide/engine3/style.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Le Bloc Libéral | Accueil</title>
     <link href="BlocLiberal/bootstrap/font-awesome/css/font-awesome.css" rel="stylesheet">
@@ -72,36 +73,35 @@
                             <li><a href='index-2.html' style="padding-bottom:12px; padding-top:12px;"><i class="fa fa-home home" style="font-size:30px;"></i></a></li>
                             <li class="has-sub"><a href='#'>Le BL</a>
                                 <ul>
-                                    <li><a href='a-propos0a52.html?W9mvyDvFWE5=5'>Historique</a></li>
-                                    <li><a href='a-propos5d0b.html?W9mvyDvFWE5=6'>Le Congrès</a></li>
-                                    <li><a href='a-propos2bf6.html?W9mvyDvFWE5=7'>La Convention</a></li>
-                                    <li><a href='bureau-executifs.html'>Le bureau exécutif</a></li>
-                                    <li><a href='secretariat-generals.html'>Le secrétariat général</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#historique'>Historique</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#congres'>Le Congrès</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#convention'>La Convention</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#bureau_executif'>Le bureau exécutif</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#secretariat_general'>Le secrétariat général</a></li>
                                     <li>
                                         <a href='#'>Les structures <i class="fa fa-chevron-down" style="color:#000; font-size:10px;"></i></a>
                                         <ul>
-                                            <li><a href="a-propos3a26.html?W9mvyDvFWE5=15">Comité de contrôle</a></li>
-                                            <li><a href="a-propos7e5d.html?W9mvyDvFWE5=13">JFPI</a></li>
-                                            <li><a href="a-propos601c.html?W9mvyDvFWE5=12">OFFPI</a></li>
+                                            <li><a href="BlocLiberal/php/views/BlocLiberalBL.php?#">Comité de contrôle</a></li>
+                                            <li><a href="BlocLiberal/php/views/BlocLiberalBL.php?#">JFPI</a></li>
+                                            <li><a href="BlocLiberal/php/views/BlocLiberalBL.php?#">OFFPI</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href='a-propos245e.html?W9mvyDvFWE5=14'>Statut et Règlement</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalBL.php?#statut_et_regrlements'>Statut et Règlement</a></li>
                                 </ul>
                             </li>
                             <li class="has-sub"><a href='#'>Actualités</a>
                                 <ul>
-                                    <li><a href='presses.html'>La presse</a></li>
-                                    <li><a href='actualitesd9da.html?W9mvyDvFWE5=2'>Laurent Gbagbo</a></li>
-                                    <li><a href='actualites2df0.html?W9mvyDvFWE5=3'>Vie des fédérations</a></li>
-                                    <li><a href='actualitesbcc1.html?W9mvyDvFWE5=4'>Communiqué</a></li>
-                                    <li><a href='actualites0a52.html?W9mvyDvFWE5=5'>Discours</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#presse'>La presse</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#vie_des_federations'>Vie des fédérations</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Communiqué</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Discours</a></li>
                                 </ul>
                             </li>
                             <li class="has-sub"><a href='#'>Ressources & média</a>
                                 <ul>
-                                    <li><a href='galerie-photo.html'>Galerie Photo</a></li>
-                                    <li><a href='galerie-video.html'>Galerie vidéos</a></li>
-                                    <li><a href='contributions.html'>Contributions</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Galerie Photo</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Galerie vidéos</a></li>
+                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#'>Contributions</a></li>
                                 </ul>
                             </li>
                             <li><a href='programmes.html'>Programme</a></li>
@@ -156,22 +156,22 @@
                             <ul>
                                 <li>
                                     <a href="actualite7011.html?W9mvyDvFWE5=3540">
-                                        <img src="BlocLiberal/image/images/bl-members.jpg" alt="front populaire Ivoirien" title="Reunion des membres du bl" id="wows1_0" />
+                                        <img src="BlocLiberal/image/images/bl-members.jpg" alt="" title="Reunion des membres du bl" id="wows1_0" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="actualite2877.html?W9mvyDvFWE5=3538">
-                                        <img src="BlocLiberal/image/images/reunion1.jpg" alt="front populaire Ivoirien" title="Unis pour un meme objectif" id="wows1_0" />
+                                        <img src="BlocLiberal/image/images/reunion1.jpg" alt="" title="Unis pour un meme objectif" id="wows1_0" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="actualite6440.html?W9mvyDvFWE5=3537">
-                                        <img src="BlocLiberal/image/images/reunion2.jpg" alt="front populaire Ivoirien" title="Un membre déterminé " id="wows1_0" />
+                                        <img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="Un membre déterminé " id="wows1_0" />
                                     </a>
                                 </li>
                                 <li>
                                     <a href="actualite660b.html?W9mvyDvFWE5=3507">
-                                        <img src="BlocLiberal/image/images/reunion-bl.jpg" alt="front populaire Ivoirien" title="Engagé pour aider la nation" id="wows1_0" />
+                                        <img src="BlocLiberal/image/images/reunion-bl.jpg" alt="" title="Engagé pour aider la nation" id="wows1_0" />
                                     </a>
                                 </li>
                                 <li>
@@ -220,6 +220,137 @@
                         <a href="#" title="Google +" style="text-decoration:none;">
                             <i style="color:#F00;" class="fa fa-2x fa-youtube"></i> &nbsp;
                         </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <div id="titro_bienvenue">Dernières actualité</div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                            <a href="actualitec2f1.html?W9mvyDvFWE5=3539">
+                                <img src="BlocLiberal/image/images/reunion1.jpg" class="img-responsive" width="400">
+                            </a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                            <a href="actualitec2f1.html?W9mvyDvFWE5=3539">
+                                <div id="titro_actualite">fête de l'Ascension</div>
+                            </a>
+                            <div id="descrip_actualite">
+                                Je sou... <br><a href="actualitec2f1.html?W9mvyDvFWE5=3539" class="btn btn-primary">Lire la suite</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                            <div id="box_article">
+                                <a href="actualite56ed.html?W9mvyDvFWE5=3524">
+                                    <div id="box_img" align="center"><img src="BlocLiberal/image/images/reunion2.jpg" width="240" class="img-responsive"></div>
+                                </a>
+                                <h4 id="titro_msg">
+                                    <a href="actualite56ed.html?W9mvyDvFWE5=3524">La Crise énergétique en Côte d’Ivoire : L’appel du FPI</a>
+                                </h4>
+                                <div id="descrip_actualite">
+                                    I/ Etat des lieux &nbsp;&nbsp;&nbsp;&nbsp; 1- Le constat Depuis le mois d&rsq...
+                                    <div align="right">
+                                        <a href="actualite56ed.html?W9mvyDvFWE5=3524" class="btn btn-primary">
+                                            <i class="fa fa-caret-right" style="color:#fff;"></i> Lire la suite
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                            <div id="box_article">
+                                <a href="actualite3996.html?W9mvyDvFWE5=3474">
+                                    <div id="box_img" align="center"><img src="BlocLiberal/image/images/reunion2.jpg" width="240" class="img-responsive"></div>
+                                </a>
+                                <h4 id="titro_msg">
+                                    <a href="actualite3996.html?W9mvyDvFWE5=3474">Audience du Président Affi N'Guessan</a>
+                                </h4>
+                                <div id="descrip_actualite">
+                                    ...
+                                    <div align="right">
+                                        <a href="actualite3996.html?W9mvyDvFWE5=3474" class="btn btn-primary">
+                                            <i class="fa fa-caret-right" style="color:#fff;"></i> Lire la suite
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                            <div id="box_article">
+                                <a href="actualite49ee.html?W9mvyDvFWE5=3458">
+                                    <div id="box_img" align="center"><img src="BlocLiberal/image/images/reunion-bl.jpg" width="240" class="img-responsive"></div>
+                                </a>
+                                <h4 id="titro_msg">
+                                    <a href="actualite49ee.html?W9mvyDvFWE5=3458">Communiqué de presse</a>
+                                </h4>
+                                <div id="descrip_actualite">
+                                    Le pr&eacute;sident du Front Populaire Ivoirien (FPI), Pascal Affi N&#39;Guessan, a regagn&eacute...
+                                    <div align="right">
+                                        <a href="actualite49ee.html?W9mvyDvFWE5=3458" class="btn btn-primary">
+                                            <i class="fa fa-caret-right" style="color:#fff;"></i> Lire la suite
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                    <div id="top" class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                        <div id="titro_actualite">Galerie vidéo</div>
+                        <a href="galerie-video.html">
+                            <table width="100%" id="img_media" style="background:url(BlocLiberal/image/images/reunion2.jpg) no-repeat; background-size:cover;">
+                                <tr>
+                                    <td align="center"><img src="BlocLiberal/img/youtube.png" width="40"></td>
+                                </tr>
+                            </table>
+                        </a>
+                    </div>
+                    <div id="blog" class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                        <div id="titro_actualite">Communiqué</div>
+                        <a href="actualitesbcc1.html?W9mvyDvFWE5=4"><img src="BlocLiberal/img/communique.png" width="250" class="img-responsive"></a>
+                        <div id="titro_actualite">Presse</div>
+                        
+                        <div id="wowslider-container3">
+                            <div class="ws_images">
+                                <ul>
+                                    <li>
+                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion1.jpg" alt="" title="" id="wows3_4" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
+                                    </li>
+                                    <li>
+                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="ws_shadow"></div>
+                        </div>
+                        <div id="top" class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                            <div id="titro_actualite">Galerie photos</div>
+                            <a href="galerie-photo.html">
+                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion1.jpg" class="img-responsive"></div>
+                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion-bl.jpg" class="img-responsive"></div>
+                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion2.jpg" class="img-responsive"></div>
+                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion1.jpg" class="img-responsive"></div>
+                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion2.jpg" class="img-responsive"></div>
+                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion1.jpg" class="img-responsive"></div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -289,7 +420,10 @@
         crossorigin="anonymous"></script>
     <script src="BlocLiberal/bootstrap/js/bootstrap.js"></script>
     <script src="BlocLiberal/style/wow.min.js"></script>
+    <script type="text/javascript" src="BlocLiberal/slide/engine3/jquery.js"></script>
     <script type="text/javascript" src="BlocLiberal/slide/engine1/jquery.js"></script>
+    <script type="text/javascript" src="BlocLiberal/slide/engine3/wowslider.js"></script>
+    <script type="text/javascript" src="BlocLiberal/slide/engine3/script.js"></script>
     <script src="BlocLiberal/style/jquery-latest.min.js" type="text/javascript"></script>
     <script src="BlocLiberal/style/script.js"></script>
     <script type="text/javascript" src="BlocLiberal/slide/engine1/wowslider.js"></script>
