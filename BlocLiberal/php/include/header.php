@@ -12,7 +12,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <meta name="keywords" content="FPI, , Front populaire, Front Ivoirien, Affi Nguessan, Pascal Affi Nguessan, Gbagbo, Laurent Gbagbo, Koudou Laurent, Koudou Laurent Gbagbo, Cote d'Ivoire Politique, Politique Ivoirienne, Politique Cote d'Ivoire, Partie Politique Côte d'Ivoire, Simone Gbagbo">
+    <meta name="keywords" content="BL, BLOC LIBERAL,Politique,Politique guinéenne,Faya">
     <link href="../../image/images/logo.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <div id="fb-root"></div>
     <script>
@@ -25,6 +25,9 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));
     </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../../style/style_menu.css">
     <link rel="stylesheet" type="text/css" href="../../slide/engine1/style.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
@@ -43,17 +46,18 @@
     <div id="header" class="entete">
         <div class="container ">
             <div class="row ">
-                <div class="col-lg-2 col-md-2 col-sm-3 col-xs-12" align="center">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12" align="center">
                     <img src="../../image/images/logo.png" class="img-responsive mt-2">
+                    <h5>Unité - Justice - Prospérité</h5>
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12" id="slogan">
+                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-12" id="slogan">
                     LE Bloc Libéral
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeInDown newletterbloc" data-wow-duration="1000ms" data-wow-delay="900ms" id="rechercher">
                     <form method="post" action="#" name="form1">
                         INSCRIPTION À LA NEWSLETTER
                         <div class="input-group">
-                            <input type="text" class="form-control" name="new" placeholder="Adresse mail" id="input_recherche">
+                            <input type="text" class="form-control" name="new" placeholder="Votre Adresse mail ..." id="input_recherche">
                             <span class="input-group-btn">
                                 <input type="submit" class="btn newsletterbtn" value="Souscrire" name="newsletter" id="bouton_recherche">
                             </span>
@@ -126,10 +130,12 @@
                         <td>
                             <div id="flash">
                                 <marquee direction="left" scrollamount="5" scrolldelay="100" onMouseOver="this.stop();" onMouseOut="this.start();">
-                                    <a href="actualite8a43.html?W9mvyDvFWE5=3454" target="_blank">
-                        AFFI :  Je demeure ouvert à toute proposition tendant à l’unité du parti, dans le respect des textes du FPI et de la volonté de ses militants &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                         </a>
-                                    <a href="actualite8a43.html?W9mvyDvFWE5=3454" target="_blank">
-                        AFFI : L’unité de notre famille politique a été ces dernières années pour moi une préoccupation constante &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                         </a>
+                                    <a href="#" target="_blank">
+                                        Ensemble, bâtissons une nation grande , un pays de liberté, de justice & d'égalité. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                         
+                                    </a>
+                                    <a href="#" target="_blank">
+                                        Unité - Justice - Prospérité. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;                         
+                                    </a>
                                 </marquee>
                             </div>
                         </td>

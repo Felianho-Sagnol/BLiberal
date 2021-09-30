@@ -49,12 +49,12 @@ body {
 }
 
 #titro_bienvenue {
-    font-size: 35px;
+    font-size: 20px;
     text-align: center;
     color: #1a56b0;
     font-family: ptsans;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 5px;
+    margin-bottom: 1px;
 }
 
 #rubrique {
@@ -110,9 +110,9 @@ body {
 
 #flash_info {
     color: #fff;
-    background: #f75f18;
+    background: #eb790fe7;
     float: left;
-    font-family: Delius;
+    /*font-family: Delius;*/
     padding: 12px;
     margin-right: 5px;
     font-weight: bold;
@@ -171,4 +171,9 @@ body {
     border-radius: 0px 0px 4px 4px;
     font-size: 18px;
     font-weight: bold;
+    background-color: #eb790fe7;
+}
+
+.arrow {
+    margin-left: 40px;
 }

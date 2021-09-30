@@ -1,0 +1,6 @@
+dimminuer la taille du text du slide
+
+dimminuer la taille du text du bloc de soutien
+
+mettre le contenu du contenu du document word sous de partie pliante exposant les grands axes .
+et le contenu est representé par de variants signes (-/+) selon qu'on veille lire ou fermer le bloc.

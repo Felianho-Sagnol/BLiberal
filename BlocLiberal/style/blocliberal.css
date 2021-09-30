@@ -2,6 +2,10 @@
     margin-bottom: 20px;
 }
 
+.newsletterbtn {
+    background-color: #eb790fe7 !important;
+}
+
 .home {
-    color: #f75718;
+    color: #eb790fe7;
 }

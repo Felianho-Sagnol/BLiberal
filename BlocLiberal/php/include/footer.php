@@ -69,6 +69,9 @@
     <script src="../../style/script.js"></script>
     <script type="text/javascript" src="../../slide/engine1/wowslider.js"></script>
     <script type="text/javascript" src="../../slide/engine1/script.js"></script>
+    
+    <script defer type="module" src="../../js/main.js"></script>
+    
     <script>
         wow = new WOW({
 

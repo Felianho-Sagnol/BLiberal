@@ -6,21 +6,31 @@
             <div class="container" id="historique">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center">
-                        <div id="titro_bienvenue">Historique</div>
+                        <div id="titro_bienvenue">
+                            <span>Historique</span><span class='arrow' id='historicArrow'></span>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
+                <hr>
+                <div class="row" id='historicContent'>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <img class="img-responsive img-rounded" src="../../image/images/bl-members.jpg" id="detail_img">
-                        <p>Le Front populaire ivoirien est cr&eacute;&eacute; par Laurent GBAGBO&nbsp;et son &eacute;pouse Simone GBAGBO&nbsp;en 1982, sous la forme d&#39;un mouvement clandestin d&#39;ob&eacute;dience marxiste-l&eacute;niniste. La C&ocirc;te
-                            d&#39;Ivoire est alors dirig&eacute;e par F&eacute;lix Houphou&euml;t-Boigny, et le paysage politique domin&eacute; par le PDCI-RDA&nbsp;en tant que parti unique. Le mouvement se constitue en parti politique en 1988&nbsp;et milite
-                            pour l&rsquo;instauration du multipartisme.</p>
-                        <p>Gr&acirc;ce aux efforts et combats politiques du FPI, le multipartisme est aujourd&#39;hui durablement implant&eacute; dans le champ politique ivoirien.</p>
+                        <p>
+                            FORMATIONS ACADÉMIQUES.
+                            Il a fait ses études primaires à Denguédou de 1969 en 1975, le Collège à Kènèma et à Nongoa, et le Lycée à Nongoa. 
+                            C’est en 1981 qu’il a décroché son baccalauréat 2e partie avec mention. Il fut deuxième de la région administrative 
+                            de Guéckédou. Orienté à l’Ecole Normale Supérieure 1er degré, il a obtenu, trois ans plus tard, son concours d’entrée 
+                            au second degré, à l’Ecole Normale Supérieure de Manéah. 
+                            Il fut l’unique admis de la région administrative de Faranah en 1984. 
+                            Il est donc ancien élève de l’Ecole Normale Supérieure de Manéah (ENSUP). 
+                            Il y a obtenu une licence en éducation, en Juillet 1987. Il fut le major de sa promotion. <br>
 
-                        <p>Le FPI est officiellement reconnu comme parti politique en 1990, et se r&eacute;clame alors du socialisme d&eacute;mocratique&nbsp;et de la lutte contre le n&eacute;ocolonialisme.</p>
-
-                        <p>Dans la p&eacute;riode de 2000&nbsp;&agrave; 2010&nbsp;pendant laquelle le FPI a acc&eacute;d&eacute; au pouvoir, les membres du gouvernement issus du parti ont mis en &oelig;uvre une politique dite de &laquo;&nbsp;<em>refondation</em>&nbsp;&raquo;,
-                            dont l&#39;objectif &eacute;tait de mener le pays sur la voie du d&eacute;veloppement.</p>
+                            En 1993, Faya L. Millimouno a été l’un des deux récipiendaires des bourses d’excellence de la Francophonie offertes 
+                            par le gouvernement canadien. Cela lui a permis de préparer et de soutenir sa maitrise et son Ph.D. en Administration 
+                            de l’éducation à l’Université de Montréal. C’était respectivement en Mai 1996 et en Janvier 1999. 
+                            Il a également à son actif plusieurs stages de formation en technologie de l’information, en gestion de bases de 
+                            données, en finance, en décentralisation et en langues.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -30,46 +40,19 @@
             <div class="container" id="congres">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center">
-                        <div id="titro_bienvenue">Le Congrès</div>
+                        <div id="titro_bienvenue">
+                            <span>Le Congrès</span><span class='arrow' id='congresArrow'></span>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
+                <hr>
+                <div class="row" id='congresContent'>
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <img class="img-responsive img-rounded mr-2 mb-2" src="../../image/images/reunion1.jpg" id="detail_img">
-                        <p>Le Congr&egrave;s est l&#39;instance supr&ecirc;me du partit.</p>
-
-                        <p>Il se r&eacute;uni tous les trois (3) ans en session ordinaire sur convocation du Secr&eacute;tariat G&eacute;n&eacute;ral qui propose son ordre du jour et proc&egrave;de &agrave; son organisation mat&eacute;rielle.</p>
-
-                        <p>Il doit &ecirc;tre convoqu&eacute; trois (3) mois d&#39;avance et les documents de travail sont transmis aux f&eacute;d&eacute;rations deux (2) mois avant.</p>
-
-                        <p>Le Congr&egrave;s ne peut se tenir que s&#39;il r&eacute;uni plus de la moiti&eacute; de ses membres et est pr&eacute;sid&eacute; par un bureau de s&eacute;ance choisi par le Comit&eacute; Central.</p>
-
-                        <p>Le Congr&egrave;s est compos&eacute; de :</p>
-
-                        <ul>
-                            <li>Du Comit&eacute; Central;</li>
-                            <li>Du Secr&eacute;tariat G&eacute;n&eacute;ral;</li>
-                            <li>Du Comit&eacute; de Contr&ocirc;le;</li>
-                            <li>Des Secr&eacute;taires G&eacute;n&eacute;raux de section;</li>
-                            <li>Des repr&eacute;sentants du FPI &agrave; l&#39;&eacute;tranger;</li>
-                            <li>D&#39;une d&eacute;l&eacute;gation de chaque structure sp&eacute;cialis&eacute;e;</li>
-                            <li>D&#39;une d&eacute;l&eacute;gation de chaque structure d&#39;activit&eacute; &agrave; titre d&#39;observateur;</li>
-                            <li>Des d&eacute;l&eacute;gu&eacute;s de Sections;</li>
-                            <li>Des d&eacute;l&eacute;gu&eacute;s de Sections du FPI &agrave; l&#39;&eacute;tranger</li>
-                        </ul>
-
-                        <p>Le nombre de ses d&eacute;l&eacute;gu&eacute;s est fix&eacute; par le Secr&eacute;tariat G&eacute;n&eacute;ral</p>
-
-                        <p>Le Congr&egrave;s est comp&eacute;tent pour:</p>
-
-                        <ul>
-                            <li>Statuer sur tout diff&eacute;rend relatif &agrave; l&rsquo;interpr&eacute;tation ou l&rsquo;application des textes&nbsp;;</li>
-                            <li>Amender ou r&eacute;viser les Statuts et le R&egrave;glement Int&eacute;rieur&nbsp;;</li>
-                            <li>Dissoudre le Parti.</li>
-                        </ul>
-
-                        <p>Le Congr&egrave;s peut se tenir en Session Extraordinaire &agrave; l&rsquo;initiative, soit du Secr&eacute;tariat G&eacute;n&eacute;ral, soit du Comit&eacute; Central, soit des deux tiers (2/3) des Secr&eacute;taires G&eacute;n&eacute;raux
-                            de Sections.<br /> Le Comit&eacute; Central peut, &agrave; la demande du Comit&eacute; de Contr&ocirc;le, convoquer un (1) Congr&egrave;s Extraordinaire.</p>
+                            Il a fait ses études primaires à Denguédou de 1969 en 1975, le Collège à Kènèma et à Nongoa, et le Lycée à Nongoa. 
+                            C’est en 1981 qu’il a décroché son baccalauréat 2e partie avec mention. Il fut deuxième de la région administrative 
+                            de Guéckédou. Orienté à l’Ecole Normale Supérieure 1er degré, il a obtenu, trois ans plus tard, son concours d’entrée 
+                            au second degré
                     </div>
                 </div>
             </div>
@@ -79,33 +62,22 @@
             <div class="container" id="convention">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" align="center">
-                        <div id="titro_bienvenue">La convention</div>
+                        <div id="titro_bienvenue">
+                            <span>La convention</span><span class='arrow' id='conventionArrow'></span>
+                        </div>
                     </div>
                 </div>
-                <div class="row">
+                <hr>
+                <div class="row" id="conventionContent">
                     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                         <img class="img-responsive img-rounded" src="../../image/images/reunion2.jpg" id="detail_img">
                         <p>La Convention est compos&eacute;e:</p>
 
-                        <ul>
-                            <li>du Secr&eacute;tariat G&eacute;n&eacute;ral&nbsp;;</li>
-                            <li>du Comit&eacute; Central&nbsp;;</li>
-                            <li>du Comit&eacute; de Contr&ocirc;le&nbsp;;</li>
-                            <li>des Secr&eacute;taires G&eacute;n&eacute;raux de F&eacute;d&eacute;rations et leurs adjoints&nbsp;;</li>
-                            <li>des Secr&eacute;taires G&eacute;n&eacute;raux de Sections&nbsp;;</li>
-                            <li>du Responsable national de chaque Structure Sp&eacute;cialis&eacute;e&nbsp;;</li>
-                            <li>des Repr&eacute;sentants du Parti &agrave; l&rsquo;&eacute;tranger.</li>
-                        </ul>
-
-                        <p>La Convention se r&eacute;unit une fois entre deux (2) Congr&egrave;s en Session Ordinaire sur convocation du Secr&eacute;tariat G&eacute;n&eacute;ral.</p>
-
-                        <p>Elle peut se r&eacute;unir &nbsp;en Session Extraordinaire &agrave; l&rsquo;initiative du Secr&eacute;tariat G&eacute;n&eacute;ral, du Comit&eacute; Central ou des deux tiers (2/3) des Assembl&eacute;es F&eacute;d&eacute;rales.</p>
-
-                        <p>Le Comit&eacute; Central peut, &agrave; la demande du Comit&eacute; de Contr&ocirc;le, convoquer une Convention Extraordinaire.</p>
-
-                        <p>Elle est pr&eacute;sid&eacute;e par un Bureau de S&eacute;ance choisi par le Comit&eacute; Central.</p>
-
-                        <p>La Convention est comp&eacute;tente pour conna&icirc;tre de tous les probl&egrave;mes du Parti entre deux (2) Congr&egrave;s &agrave; l&rsquo;exception de&nbsp; ceux relevant exclusivement du Congr&egrave;s.</p>
+                            Il a fait ses études primaires à Denguédou de 1969 en 1975, le Collège à Kènèma et à Nongoa, et le Lycée à Nongoa. 
+                            C’est en 1981 qu’il a décroché son baccalauréat 2e partie avec mention. Il fut deuxième de la région administrative 
+                            de Guéckédou. Orienté à l’Ecole Normale Supérieure 1er degré, il a obtenu, trois ans plus tard, son concours d’entrée 
+                            au second degré
+                        
                     </div>
                 </div>
             </div>
