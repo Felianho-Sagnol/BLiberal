@@ -6,6 +6,6 @@
     background-color: #eb790fe7 !important;
 }
 
-.home {
-    color: #eb790fe7;
+.error {
+    color: red !important;
 }

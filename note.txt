@@ -4,3 +4,27 @@ dimminuer la taille du text du bloc de soutien
 
 mettre le contenu du contenu du document word sous de partie pliante exposant les grands axes .
 et le contenu est representé par de variants signes (-/+) selon qu'on veille lire ou fermer le bloc.
+
+-----------------------base de donnee--------------------------------
+1-Actualités
+  -nom de l'evennement
+  -image 
+  -description
+  -type : communiqué,discours,actualité,vie de federation,presse
+2-Galery
+    -image 
+
+3-contacts
+    -nom,
+    -phone,
+    -email,
+    -objet,
+    -message,
+
+4-Accreditation
+    -Nom ,
+    -Prenom,
+    -phone,
+    -email,
+    -organe de presse,
+    -remarque,

@@ -87,7 +87,7 @@
                             </li>
                             <li class="has-sub"><a href='#'>Actualités</a>
                                 <ul>
-                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#presse'>La presse</a></li>
+                                    <li><a href='BlocLiberal/php/views/presseview.php?'>La presse</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#vie_des_federations'>Vie des fédérations</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#communique'>Communiqués</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#discours'>Discours</a></li>
@@ -106,6 +106,7 @@
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#communique'>Communiqués</a></li>
                                     <li><a href='BlocLiberal/php/views/ProgrammeCommunication.php?#Contact'>Nous contacter</a></li>
                                     <li><a href='BlocLiberal/php/views/ProgrammeCommunication.php?#accreditation'>Accréditations</a></li>
+                                    <li><a href='BlocLiberal/php/views/adminLogin.php'>Accès Administration</a></li>
                                 </ul>
                             </li>
                             <li class="has-sub"><a href='#'>Les élections</a>

@@ -16,14 +16,14 @@
     <link href="../../image/images/logo.png" rel="shortcut icon" type="image/vnd.microsoft.icon">
     <div id="fb-root"></div>
     <script>
-        (function(d, s, id) {
+        /*(function(d, s, id) {
             var js, fjs = d.getElementsByTagName(s)[0];
             if (d.getElementById(id)) return;
             js = d.createElement(s);
             js.id = id;
-            js.src = "../connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
+            //js.src = "../connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.6";
             fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
+        }(document, 'script', 'facebook-jssdk'));*/
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
     integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
@@ -33,7 +33,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
     <link rel="stylesheet" type="text/css" href="../../slide/engine3/style.css" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Le Bloc Libéral | Accueil</title>
+    <title>Le Bloc Libéral</title>
     <link href="../../bootstrap/font-awesome/css/font-awesome.css" rel="stylesheet">
     <link href="../../bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="../../style/animate.css" rel="stylesheet">
@@ -87,7 +87,7 @@
                             </li>
                             <li class="has-sub"><a href='#'>Actualités</a>
                                 <ul>
-                                    <li><a href='BlocLiberalActualitesEtRessourses.php?#presse'>La presse</a></li>
+                                    <li><a href='presseview.php'>La presse</a></li>
                                     <li><a href='BlocLiberalActualitesEtRessourses.php?#vie_des_federations'>Vie des fédérations</a></li>
                                     <li><a href='BlocLiberalActualitesEtRessourses.php?#communique'>Communiqué</a></li>
                                     <li><a href='BlocLiberalActualitesEtRessourses.php?#discours'>Discours</a></li>
@@ -106,6 +106,7 @@
                                     <li><a href='BlocLiberalActualitesEtRessourses.php?#communique'>Communiqués</a></li>
                                     <li><a href='ProgrammeCommunication.php?#Contact'>Nous contacter</a></li>
                                     <li><a href='ProgrammeCommunication.php?#accreditation'>Accréditation</a></li>
+                                    <li><a href='adminLogin.php'>Accès Administration</a></li>
                                 </ul>
                             </li>
                             <li class="has-sub"><a href='#'>Les élections</a>
