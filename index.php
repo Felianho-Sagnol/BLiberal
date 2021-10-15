@@ -1,5 +1,11 @@
 <?php
-  //include_once("BlocLiberal/");
+  include_once("BlocLiberal/php/models/presse.php");
+  include_once("BlocLiberal/php/models/communique.php");
+  include_once("BlocLiberal/php/models/discours.php");
+
+  $presseInstance = new Presse();
+  $presses = $presseInstance->getAllPresses();
+  var_dump($presses);
 ?>
 <!DOCTYPE html>
 <html>
@@ -228,21 +234,35 @@
             <div class="row">
                 <div class="col-lg-9">
                     <div id="titro_bienvenue">Dernières actualité</div>
-                    <div class="row">
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-                            <a href="actualitec2f1.html?W9mvyDvFWE5=3539">
-                                <img src="BlocLiberal/image/images/reunion1.jpg" class="img-responsive" width="400">
-                            </a>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-                            <a href="actualitec2f1.html?W9mvyDvFWE5=3539">
-                                <div id="titro_actualite">fête de l'Ascension</div>
-                            </a>
-                            <div id="descrip_actualite">
-                                Je sou... <br><a href="actualitec2f1.html?W9mvyDvFWE5=3539" class="btn btn-primary">Lire la suite</a>
-                            </div>
-                        </div>
-                    </div>
+                    <?php 
+                        if(count($presses) != 0){
+                            $presse = $presses[0];
+                            ?>
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                                        <a style="width:100%;height:20px" href="BlocLiberal/php/views/presseview.php?presseid=<?=$presse['id'] ?>">
+                                            <img src="BlocLiberal/image/actualites/presses/<?=$presse['image'] ;?>" class="img-responsiv" width="100%" height="300px"/>
+                                        </a>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                                        <a href="BlocLiberal/php/views/presseview.php?presseid=<?=$presse['id'] ?>">
+                                            <div id="titro_actualite"><?=$presse['title'] ;?></div>
+                                        </a>
+                                        <div id="descrip_actualite">
+                                            <p>
+                                                
+                                            </p>
+                                            <p>
+                                                <?=truncate_words($presse['content']) ;?>
+                                            </p> 
+                                            <a href="BlocLiberal/php/views/presseview.php?presseid=<?=$presse['id'] ?>" class="btn btn-primary">Lire la suite</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php 
+                        }
+                    ?>
+                    
                     <div class="row">
                         <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
                             <div id="box_article">
@@ -395,9 +415,9 @@
 
                 <div class="col-lg-2 col-md-2 col-sm-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div id="titro_foot">Menu</div>
-                    <div id="separer_foot"><a href='#'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Accueil</a></div>
-                    <div id="separer_foot"><a href='#'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Actualités</a></div>
-                    <div id="separer_foot"><a href='#'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Presse</a></div>
+                    <div id="separer_foot"><a href='index.php'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Accueil</a></div>
+                    <div id="separer_foot"><a href=''><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Actualités</a></div>
+                    <div id="separer_foot"><a href='BlocLiberal/php/views/presseview.php'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Presse</a></div>
                     <div id="separer_foot"><a href='#'><i class="fa fa-arrow-circle-o-right" style="color:#f75718;"></i> Historique</a></div>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">

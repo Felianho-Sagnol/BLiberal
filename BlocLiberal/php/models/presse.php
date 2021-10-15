@@ -122,7 +122,7 @@
         }
 
         public function getAllPresses(){
-            $req = $this->_db->prepare('SELECT id,title,content,image,DATE_FORMAT(createdAt,\'%d/%m/%Y\') AS createdAt FROM actualites WHERE type=? ORDER BY createdAt DESC');
+            $req = $this->_db->prepare('SELECT id,title,content,image,DATE_FORMAT(createdAt,\'%d/%m/%Y\') AS createdAt FROM actualites WHERE type=? ORDER BY id DESC');
             $req->execute(array("PRESSE"));
             return $req->fetchAll();
         }

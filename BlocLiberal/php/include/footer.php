@@ -30,7 +30,7 @@
 
                 <div class="col-lg-2 col-md-2 col-sm-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div id="titro_foot">Menu</div>
-                    <div id="separer_foot"><a href='index-2.html'><i class="fa fa-arrow-circle-o-right" style="color:#ffa500;"></i> Accueil</a></div>
+                    <div id="separer_foot"><a href='../../../index.php'><i class="fa fa-arrow-circle-o-right" style="color:#ffa500;"></i> Accueil</a></div>
                     <div id="separer_foot"><a href='toutes-les-actualites.html'><i class="fa fa-arrow-circle-o-right" style="color:#ffa500;"></i> Actualités</a></div>
                     <div id="separer_foot"><a href='index-2.html?W9mvyDvFWE5=33'><i class="fa fa-arrow-circle-o-right" style="color:#ffa500;"></i> Presse</a></div>
                     <div id="separer_foot"><a href='a-propos0a52.html?W9mvyDvFWE5=5'><i class="fa fa-arrow-circle-o-right" style="color:#ffa500;"></i> Historique</a></div>

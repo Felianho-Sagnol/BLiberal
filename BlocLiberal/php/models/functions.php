@@ -37,6 +37,11 @@
 		if(strlen($words) <= 100) return $words."...";
 		return substr($words,0,101)."....";
 	}
+
+	function truncate_words($words){
+		if(strlen($words) <= 500) return $words."...";
+		return substr($words,0,501)."....";
+	}
     
 
 
