@@ -95,9 +95,9 @@
                             </li>
                             <li class="has-sub"><a href='#'>Ressources & média</a>
                                 <ul>
-                                    <li><a href='BlocLiberalActualitesEtRessourses.php?#galery_photo'>Galerie Photo</a></li>
-                                    <li><a href='BlocLiberalActualitesEtRessourses.php?#galery_video'>Galerie vidéos</a></li>
-                                    <li><a href='BlocLiberalActualitesEtRessourses.php?#contribution'>Contributions</a></li>
+                                    <li><a href='../views/galeryPhoto.php'>Galerie Photo</a></li>
+                                    <li><a href='#'>Galerie vidéos</a></li>
+                                    <li><a href='#'>Contributions</a></li>
                                 </ul>
                             </li>
                             <li><a href='ProgrammeCommunication.php?#programme'>Programme</a></li>

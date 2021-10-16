@@ -41,7 +41,7 @@
         }
 
         public function getContent() {
-            $req = $this->_db->prepare('SELECT id,url,admin,DATE_FORMAT(createdAt,\'%d/%m/%Y\') AS createdAt FROM   galery');
+            $req = $this->_db->prepare('SELECT id,url,admin,DATE_FORMAT(createdAt,\'%d/%m/%Y\') AS createdAt FROM galery ORDER BY id DESC');
             $req->execute(array());
 
             return $req->fetchAll();

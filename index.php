@@ -1,11 +1,15 @@
 <?php
   include_once("BlocLiberal/php/models/presse.php");
   include_once("BlocLiberal/php/models/communique.php");
-  include_once("BlocLiberal/php/models/discours.php");
+  include_once("BlocLiberal/php/models/galery.php");
 
   $presseInstance = new Presse();
+  $galeryInstance = new Galery();
+
   $presses = $presseInstance->getAllPresses();
-  var_dump($presses);
+  $galeries = $galeryInstance->getContent();
+
+  //var_dump($galeries);
 ?>
 <!DOCTYPE html>
 <html>
@@ -93,7 +97,7 @@
                             </li>
                             <li class="has-sub"><a href='#'>Actualités</a>
                                 <ul>
-                                    <li><a href='BlocLiberal/php/views/presseview.php?'>La presse</a></li>
+                                    <li><a href='BlocLiberal/php/views/presseview.php'>La presse</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#vie_des_federations'>Vie des fédérations</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#communique'>Communiqués</a></li>
                                     <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#discours'>Discours</a></li>
@@ -101,9 +105,9 @@
                             </li>
                             <li class="has-sub"><a href='#'>Ressources & média</a>
                                 <ul>
-                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#galery_photo'>Galerie Photos</a></li>
-                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#galery_video'>Galerie vidéos</a></li>
-                                    <li><a href='BlocLiberal/php/views/BlocLiberalActualitesEtRessourses.php?#contribution'>Contributions</a></li>
+                                    <li><a href='BlocLiberal/php/views/galeryPhoto.php'>Galerie Photos</a></li>
+                                    <li><a href='#'>Galerie vidéos</a></li>
+                                    <li><a href='#'>Contributions</a></li>
                                 </ul>
                             </li>
                             <li><a href='BlocLiberal/php/views/ProgrammeCommunication.php?#programme'>Programme</a></li>
@@ -240,22 +244,19 @@
                             ?>
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-                                        <a style="width:100%;height:20px" href="BlocLiberal/php/views/presseview.php?presseid=<?=$presse['id'] ?>">
+                                        <a style="width:100%;height:20px" href="BlocLiberal/php/views/redirecto.php?presseid=<?=$presse['id'] ?>">
                                             <img src="BlocLiberal/image/actualites/presses/<?=$presse['image'] ;?>" class="img-responsiv" width="100%" height="300px"/>
                                         </a>
                                     </div>
                                     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-                                        <a href="BlocLiberal/php/views/presseview.php?presseid=<?=$presse['id'] ?>">
-                                            <div id="titro_actualite"><?=$presse['title'] ;?></div>
+                                        <a href="BlocLiberal/php/views/redirecto.php?presseid=<?=$presse['id'] ?>">
+                                            <div id="titro_actualite"><?=truncatewords($presse['title']) ;?></div>
                                         </a>
                                         <div id="descrip_actualite">
                                             <p>
-                                                
-                                            </p>
-                                            <p>
                                                 <?=truncate_words($presse['content']) ;?>
                                             </p> 
-                                            <a href="BlocLiberal/php/views/presseview.php?presseid=<?=$presse['id'] ?>" class="btn btn-primary">Lire la suite</a>
+                                            <a href="BlocLiberal/php/views/redirecto.php?presseid=<?=$presse['id'] ?>" class="btn btn-primary">Lire la suite</a>
                                         </div>
                                     </div>
                                 </div>
@@ -264,71 +265,44 @@
                     ?>
                     
                     <div class="row">
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-                            <div id="box_article">
-                                <a href="actualite56ed.html?W9mvyDvFWE5=3524">
-                                    <div id="box_img" align="center"><img src="BlocLiberal/image/images/reunion2.jpg" width="240" class="img-responsive"></div>
-                                </a>
-                                <h4 id="titro_msg">
-                                    <a href="actualite56ed.html?W9mvyDvFWE5=3524">La Crise énergétique en guinéé</a>
-                                </h4>
-                                <div id="descrip_actualite">
-                                    Il a fait ses études primaires à Denguédou de 1969 en 1975, le Collège à Kènèma et à Nongoa, et le Lycée à Nongoa. 
-                                    C’est en 1981 qu’il a décroché son baccalauréat 2e partie avec mention. Il fut deuxième de la région administrative 
-                                    de Guéckédou. Orienté à l’Ecole Normale Supérieure 1er degré, il a obtenu, trois ans plus tard, son concours d’entrée 
-                                    au second degré
-                                    <div align="right">
-                                        <a href="actualite56ed.html?W9mvyDvFWE5=3524" class="btn btn-primary">
-                                            <i class="fa fa-caret-right" style="color:#fff;"></i> Lire la suite
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-                            <div id="box_article">
-                                <a href="actualite3996.html?W9mvyDvFWE5=3474">
-                                    <div id="box_img" align="center"><img src="BlocLiberal/image/images/reunion2.jpg" width="240" class="img-responsive"></div>
-                                </a>
-                                <h4 id="titro_msg">
-                                    <a href="actualite3996.html?W9mvyDvFWE5=3474">Audience du Président Bl</a>
-                                </h4>
-                                <div id="descrip_actualite">
-                                    <div align="right">
-                                        <a href="actualite3996.html?W9mvyDvFWE5=3474" class="btn btn-primary">
-                                            <i class="fa fa-caret-right" style="color:#fff;"></i> Lire la suite
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-                            <div id="box_article">
-                                <a href="actualite49ee.html?W9mvyDvFWE5=3458">
-                                    <div id="box_img" align="center"><img src="BlocLiberal/image/images/reunion-bl.jpg" width="240" class="img-responsive"></div>
-                                </a>
-                                <h4 id="titro_msg">
-                                    <a href="actualite49ee.html?W9mvyDvFWE5=3458">Communiqué de presse</a>
-                                </h4>
-                                <div id="descrip_actualite">
-                                    Il a fait ses études primaires à Denguédou de 1969 en 1975, le Collège à Kènèma et à Nongoa, et le Lycée à Nongoa. 
-                                    C’est en 1981 qu’il a décroché son baccalauréat 2e partie avec mention. Il fut deuxième de la région administrative 
-                                    de Guéckédou. Orienté à l’Ecole Normale Supérieure 1er degré, il a obtenu, trois ans plus tard, son concours d’entrée 
-                                    au second degré
-                                    <div align="right">
-                                        <a href="actualite49ee.html?W9mvyDvFWE5=3458" class="btn btn-primary">
-                                            <i class="fa fa-caret-right" style="color:#fff;"></i> Lire la suite
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
+                        
+                        <?php
+                            if(count($presses) > 1){
+                                for($i = 1; $i < count($presses); $i++){
+                                    if($i == 4) break;
+                                    $presse = $presses[$i];
+                                    ?>
+                                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
+                                            <div id="box_article">
+                                                <a href="BlocLiberal/php/views/redirecto.php?presseid=<?=$presse['id'] ?>">
+                                                    <div id="box_img" align="center"><img src="BlocLiberal/image/actualites/presses/<?=$presse['image'] ;?>" width="100%" height="100%" class="img-responsiv"></div>
+                                                </a>
+                                                <h4 id="titro_msg">
+                                                    <a href="BlocLiberal/php/views/redirecto.php?presseid=<?=$presse['id'] ?>"><?=truncatewords($presse['content']);?></a>
+                                                </h4>
+                                                <div style="overflow:auto;" id="descrip_actualite">
+                                                    <p>
+                                                        <?=truncate_words($presse['content']) ?>
+                                                    </p>
+                                                    <div align="right">
+                                                        <a href="BlocLiberal/php/views/redirecto.php?presseid=<?=$presse['id'] ?>" class="btn btn-primary">
+                                                            <i class="fa fa-caret-right" style="color:#fff;"></i> Lire la suite
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    <?php
+                                }
+                            }
+                        ?>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
                     <div id="top" class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
                         <div id="titro_actualite">Galerie vidéo</div>
-                        <a href="galerie-video.html">
+                        <a href="index.php">
                             <table width="100%" id="img_media" style="background:url(BlocLiberal/image/images/reunion2.jpg) no-repeat; background-size:cover;">
                                 <tr>
                                     <td align="center"><img src="BlocLiberal/img/youtube.png" width="40"></td>
@@ -338,43 +312,43 @@
                     </div>
                     <div id="blog" class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
                         <div id="titro_actualite">Communiqué</div>
-                        <a href="actualitesbcc1.html?W9mvyDvFWE5=4"><img src="BlocLiberal/img/communique.png" width="250" class="img-responsive"></a>
+                        <a href="BlocLiberal/php/views/redirecto.php"><img src="BlocLiberal/img/communique.png" width="250" class="img-responsive"></a>
                         <div id="titro_actualite">Presse</div>
                         
                         <div id="wowslider-container3">
                             <div class="ws_images">
                                 <ul>
-                                    <li>
-                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion1.jpg" alt="" title="" id="wows3_4" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
-                                    </li>
-                                    <li>
-                                        <a href="presses.html"><img src="BlocLiberal/image/images/reunion2.jpg" alt="" title="" id="wows3_4" /></a>
-                                    </li>
+                                    <?php
+                                        if(count($presses) != 0){
+                                            for($i = 0; $i < count($presses); $i++){
+                                                $presse = $presses[$i];
+                                                ?>
+                                                    <li>
+                                                        <a href="BlocLiberal/php/views/redirecto.php?presseid=<?=$presse['id'] ?>">
+                                                            <img width="100" height="170px"src="BlocLiberal/image/actualites/presses/<?=$presse['image'] ;?>" alt="" title="" id="wows3_4" />
+                                                        </a>
+                                                    </li>
+                                                <?php
+                                            }
+                                        }
+                                    ?>
                                 </ul>
                             </div>
                             <div class="ws_shadow"></div>
                         </div>
                         <div id="top" class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
                             <div id="titro_actualite">Galerie photos</div>
-                            <a href="galerie-photo.html">
-                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion1.jpg" class="img-responsive"></div>
-                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion-bl.jpg" class="img-responsive"></div>
-                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion2.jpg" class="img-responsive"></div>
-                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion1.jpg" class="img-responsive"></div>
-                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion2.jpg" class="img-responsive"></div>
-                                <div id="box_galerie"><img src="BlocLiberal/image/images/reunion1.jpg" class="img-responsive"></div>
+                            <a href="index.php">
+                                <?php 
+                                    for($i=0; $i < count($galeries); $i++){
+                                        if($i == 6) break;
+                                        $galery = $galeries[$i];
+                                        ?>
+                                            <div id="box_galerie"><img width="100" height="20px"src="BlocLiberal/image/galery/<?=$galery['url'] ?>" class="img-responsive"></div>
+                                        <?php
+                                    }
+                                ?>
+                                
                             </a>
                         </div>
                     </div>
@@ -426,12 +400,11 @@
                 </div>
             </div>
             <div class="row" style="font-size:12px; margin-top:10px;">
-                <div class="col-lg-10 col-md-10 col-sm-10">
+                <div class="col-lg-2 col-md-2 col-sm-2"></div>
+                <div class="col-lg-8 col-md-10 col-sm-10">
                     <a href="#" target="_blank" style="color:#fff; text-decoration:none;">&copy;</a> Le Bloc Libéral, Tous Droits R&eacute;serv&eacute;s.
                 </div>
-                <div class="col-lg-2 col-md-2 col-sm-2">
-                    
-                </div>
+                <div class="col-lg-2 col-md-2 col-sm-2"></div>
             </div>
         </div>
     </div>

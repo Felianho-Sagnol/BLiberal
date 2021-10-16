@@ -34,13 +34,18 @@
 	}
 
 	function truncatewords($words){
-		if(strlen($words) <= 100) return $words."...";
+		if(strlen($words) <= 100) return $words." .";
 		return substr($words,0,101)."....";
 	}
 
 	function truncate_words($words){
-		if(strlen($words) <= 500) return $words."...";
-		return substr($words,0,501)."....";
+		if(strlen($words) <= 200) return $words." .";
+		return substr($words,0,201)."....";
+	}
+
+	function truncatewrds($words){
+		if(strlen($words) <= 70) return $words." .";
+		return substr($words,0,71)."....";
 	}
     
 
